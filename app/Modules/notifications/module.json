@@ -1,0 +1,20 @@
+{
+    "key": "notifications",
+    "name": "Notifications",
+    "description": "ProcureAI module: Notifications.",
+    "icon": "heroicon-o-cube",
+    "category": "core",
+    "depends_on": [
+        "users"
+    ],
+    "is_core": true,
+    "default_enabled": true,
+    "sort": 60,
+    "permissions": [
+        "notifications.view",
+        "notifications.create",
+        "notifications.update",
+        "notifications.delete"
+    ],
+    "navigation": []
+}

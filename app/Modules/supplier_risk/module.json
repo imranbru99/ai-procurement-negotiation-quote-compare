@@ -1,0 +1,20 @@
+{
+    "key": "supplier_risk",
+    "name": "Supplier Risk",
+    "description": "ProcureAI module: Supplier Risk.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "suppliers"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 280,
+    "permissions": [
+        "supplier_risk.view",
+        "supplier_risk.create",
+        "supplier_risk.update",
+        "supplier_risk.delete"
+    ],
+    "navigation": []
+}

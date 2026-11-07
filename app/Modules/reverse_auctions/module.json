@@ -1,0 +1,21 @@
+{
+    "key": "reverse_auctions",
+    "name": "Reverse Auctions",
+    "description": "ProcureAI module: Reverse Auctions.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "rfq",
+        "suppliers"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 180,
+    "permissions": [
+        "reverse_auctions.view",
+        "reverse_auctions.create",
+        "reverse_auctions.update",
+        "reverse_auctions.delete"
+    ],
+    "navigation": []
+}

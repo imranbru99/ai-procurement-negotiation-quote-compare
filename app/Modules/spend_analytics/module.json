@@ -1,0 +1,21 @@
+{
+    "key": "spend_analytics",
+    "name": "Spend Analytics",
+    "description": "ProcureAI module: Spend Analytics.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "purchase_orders",
+        "payments"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 290,
+    "permissions": [
+        "spend_analytics.view",
+        "spend_analytics.create",
+        "spend_analytics.update",
+        "spend_analytics.delete"
+    ],
+    "navigation": []
+}

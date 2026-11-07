@@ -1,0 +1,20 @@
+{
+    "key": "catalog",
+    "name": "Catalog",
+    "description": "ProcureAI module: Catalog.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "suppliers"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 110,
+    "permissions": [
+        "catalog.view",
+        "catalog.create",
+        "catalog.update",
+        "catalog.delete"
+    ],
+    "navigation": []
+}

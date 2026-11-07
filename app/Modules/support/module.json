@@ -1,0 +1,20 @@
+{
+    "key": "support",
+    "name": "Support",
+    "description": "ProcureAI module: Support.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "users"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 390,
+    "permissions": [
+        "support.view",
+        "support.create",
+        "support.update",
+        "support.delete"
+    ],
+    "navigation": []
+}

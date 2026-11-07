@@ -1,0 +1,20 @@
+{
+    "key": "approvals",
+    "name": "Approvals",
+    "description": "ProcureAI module: Approvals.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "requisitions"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 130,
+    "permissions": [
+        "approvals.view",
+        "approvals.create",
+        "approvals.update",
+        "approvals.delete"
+    ],
+    "navigation": []
+}

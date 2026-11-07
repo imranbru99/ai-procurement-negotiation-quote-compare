@@ -1,0 +1,20 @@
+{
+    "key": "ai_negotiation",
+    "name": "AI Negotiation",
+    "description": "ProcureAI module: AI Negotiation.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "quote_comparison"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 170,
+    "permissions": [
+        "ai_negotiation.view",
+        "ai_negotiation.create",
+        "ai_negotiation.update",
+        "ai_negotiation.delete"
+    ],
+    "navigation": []
+}

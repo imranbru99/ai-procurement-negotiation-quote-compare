@@ -1,0 +1,20 @@
+{
+    "key": "users",
+    "name": "Users",
+    "description": "ProcureAI module: Users.",
+    "icon": "heroicon-o-cube",
+    "category": "core",
+    "depends_on": [
+        "tenants"
+    ],
+    "is_core": true,
+    "default_enabled": true,
+    "sort": 20,
+    "permissions": [
+        "users.view",
+        "users.create",
+        "users.update",
+        "users.delete"
+    ],
+    "navigation": []
+}

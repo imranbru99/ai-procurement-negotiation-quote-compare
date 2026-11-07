@@ -1,0 +1,20 @@
+{
+    "key": "multi_branch",
+    "name": "Multi Branch",
+    "description": "ProcureAI module: Multi Branch.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "tenants"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 420,
+    "permissions": [
+        "multi_branch.view",
+        "multi_branch.create",
+        "multi_branch.update",
+        "multi_branch.delete"
+    ],
+    "navigation": []
+}

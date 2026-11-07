@@ -1,0 +1,20 @@
+{
+    "key": "multi_language",
+    "name": "Multi Language",
+    "description": "ProcureAI module: Multi Language.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "settings"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 430,
+    "permissions": [
+        "multi_language.view",
+        "multi_language.create",
+        "multi_language.update",
+        "multi_language.delete"
+    ],
+    "navigation": []
+}

@@ -1,0 +1,18 @@
+{
+    "key": "tenants",
+    "name": "Tenants",
+    "description": "ProcureAI module: Tenants.",
+    "icon": "heroicon-o-cube",
+    "category": "core",
+    "depends_on": [],
+    "is_core": true,
+    "default_enabled": true,
+    "sort": 10,
+    "permissions": [
+        "tenants.view",
+        "tenants.create",
+        "tenants.update",
+        "tenants.delete"
+    ],
+    "navigation": []
+}

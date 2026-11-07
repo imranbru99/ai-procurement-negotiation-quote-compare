@@ -1,0 +1,20 @@
+{
+    "key": "documents",
+    "name": "Documents",
+    "description": "ProcureAI module: Documents.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "tenants"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 340,
+    "permissions": [
+        "documents.view",
+        "documents.create",
+        "documents.update",
+        "documents.delete"
+    ],
+    "navigation": []
+}

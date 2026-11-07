@@ -1,0 +1,20 @@
+{
+    "key": "budgets",
+    "name": "Budgets",
+    "description": "ProcureAI module: Budgets.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "tenants"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 260,
+    "permissions": [
+        "budgets.view",
+        "budgets.create",
+        "budgets.update",
+        "budgets.delete"
+    ],
+    "navigation": []
+}

@@ -1,0 +1,20 @@
+{
+    "key": "goods_receiving",
+    "name": "Goods Receiving",
+    "description": "ProcureAI module: Goods Receiving.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "purchase_orders"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 220,
+    "permissions": [
+        "goods_receiving.view",
+        "goods_receiving.create",
+        "goods_receiving.update",
+        "goods_receiving.delete"
+    ],
+    "navigation": []
+}

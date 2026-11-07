@@ -1,0 +1,21 @@
+{
+    "key": "requisitions",
+    "name": "Requisitions",
+    "description": "ProcureAI module: Requisitions.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "catalog",
+        "users"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 120,
+    "permissions": [
+        "requisitions.view",
+        "requisitions.create",
+        "requisitions.update",
+        "requisitions.delete"
+    ],
+    "navigation": []
+}

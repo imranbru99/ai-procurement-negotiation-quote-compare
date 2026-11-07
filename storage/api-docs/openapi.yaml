@@ -1,0 +1,95 @@
+openapi: 3.1.0
+info:
+  title: ProcureAI Integration API
+  version: 1.0.0
+  description: >
+    Tenant-scoped REST API for suppliers, RFQs, quotes, and purchase orders.
+    Requires Laravel Sanctum bearer tokens and enabled platform modules.
+servers:
+  - url: /api/v1
+security:
+  - sanctum: []
+paths:
+  /suppliers:
+    get:
+      summary: List suppliers
+      tags: [Suppliers]
+      parameters:
+        - name: page
+          in: query
+          schema: { type: integer, minimum: 1 }
+      responses:
+        '200':
+          description: Paginated suppliers
+        '401':
+          description: Unauthenticated
+        '404':
+          description: Module disabled
+  /suppliers/{supplier}:
+    get:
+      summary: Show supplier
+      tags: [Suppliers]
+      parameters:
+        - name: supplier
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        '200': { description: Supplier resource }
+  /rfqs:
+    get:
+      summary: List RFQs
+      tags: [RFQs]
+      responses:
+        '200': { description: Paginated RFQs }
+  /rfqs/{rfq}:
+    get:
+      summary: Show RFQ
+      tags: [RFQs]
+      parameters:
+        - name: rfq
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        '200': { description: RFQ resource }
+  /quotes:
+    get:
+      summary: List quotes
+      tags: [Quotes]
+      responses:
+        '200': { description: Paginated quotes }
+  /quotes/{quote}:
+    get:
+      summary: Show quote
+      tags: [Quotes]
+      parameters:
+        - name: quote
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        '200': { description: Quote resource }
+  /purchase-orders:
+    get:
+      summary: List purchase orders
+      tags: [Purchase Orders]
+      responses:
+        '200': { description: Paginated purchase orders }
+  /purchase-orders/{purchase_order}:
+    get:
+      summary: Show purchase order
+      tags: [Purchase Orders]
+      parameters:
+        - name: purchase_order
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        '200': { description: Purchase order resource }
+components:
+  securitySchemes:
+    sanctum:
+      type: http
+      scheme: bearer
+      bearerFormat: Sanctum

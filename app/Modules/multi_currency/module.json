@@ -1,0 +1,20 @@
+{
+    "key": "multi_currency",
+    "name": "Multi Currency",
+    "description": "ProcureAI module: Multi Currency.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "settings"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 330,
+    "permissions": [
+        "multi_currency.view",
+        "multi_currency.create",
+        "multi_currency.update",
+        "multi_currency.delete"
+    ],
+    "navigation": []
+}

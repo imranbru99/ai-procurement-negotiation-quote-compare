@@ -1,0 +1,21 @@
+{
+    "key": "inventory",
+    "name": "Inventory",
+    "description": "ProcureAI module: Inventory.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "goods_receiving",
+        "catalog"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 230,
+    "permissions": [
+        "inventory.view",
+        "inventory.create",
+        "inventory.update",
+        "inventory.delete"
+    ],
+    "navigation": []
+}

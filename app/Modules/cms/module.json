@@ -1,0 +1,20 @@
+{
+    "key": "cms",
+    "name": "CMS",
+    "description": "ProcureAI module: CMS.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "documents"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 400,
+    "permissions": [
+        "cms.view",
+        "cms.create",
+        "cms.update",
+        "cms.delete"
+    ],
+    "navigation": []
+}

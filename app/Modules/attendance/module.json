@@ -1,0 +1,20 @@
+{
+    "key": "attendance",
+    "name": "Attendance",
+    "description": "ProcureAI module: Attendance.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "users"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 320,
+    "permissions": [
+        "attendance.view",
+        "attendance.create",
+        "attendance.update",
+        "attendance.delete"
+    ],
+    "navigation": []
+}

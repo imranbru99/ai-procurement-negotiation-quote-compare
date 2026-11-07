@@ -1,0 +1,3499 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Called ''env'' outside of the config directory which returns null when the config is cached, use ''config''\.$#'
+			identifier: larastan.noEnvCallsOutsideOfConfig
+			count: 1
+			path: app/Console/Commands/DemoResetCommand.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Rfq\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Pages/CompareQuotes.php
+
+		-
+			message: '#^Parameter \#1 \$quotes of method App\\Modules\\quote_comparison\\Services\\ComparisonEngine\:\:compare\(\) expects Illuminate\\Support\\Collection\<int, App\\Models\\Quote\>, Illuminate\\Database\\Eloquent\\Collection\<int, Illuminate\\Database\\Eloquent\\Model\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Filament/App/Pages/CompareQuotes.php
+
+		-
+			message: '#^Parameter \#1 \$boolean of function abort_unless expects bool, int\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Filament/App/Pages/ManageModules.php
+
+		-
+			message: '#^Access to an undefined property App\\Filament\\App\\Pages\\MultiLanguageSettings\:\:\$form\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Filament/App/Pages/MultiLanguageSettings.php
+
+		-
+			message: '#^Parameter \#1 \$boolean of function abort_unless expects bool, int\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Filament/App/Pages/MultiLanguageSettings.php
+
+		-
+			message: '#^Property App\\Filament\\App\\Pages\\MultiLanguageSettings\:\:\$data type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Filament/App/Pages/MultiLanguageSettings.php
+
+		-
+			message: '#^Unable to resolve the template type TKey in call to function collect$#'
+			identifier: argument.templateType
+			count: 1
+			path: app/Filament/App/Pages/MultiLanguageSettings.php
+
+		-
+			message: '#^Unable to resolve the template type TValue in call to function collect$#'
+			identifier: argument.templateType
+			count: 1
+			path: app/Filament/App/Pages/MultiLanguageSettings.php
+
+		-
+			message: '#^Method App\\Filament\\App\\Pages\\SpendAnalyticsDashboard\:\:snapshot\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Filament/App/Pages/SpendAnalyticsDashboard.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\catalog\\Models\\CatalogItem\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Resources/Catalog/CatalogItemResource.php
+
+		-
+			message: '#^Method App\\Filament\\App\\Resources\\Documents\\DocumentResource\:\:mutateFormDataBeforeCreate\(\) has parameter \$data with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Filament/App/Resources/Documents/DocumentResource.php
+
+		-
+			message: '#^Method App\\Filament\\App\\Resources\\Documents\\DocumentResource\:\:mutateFormDataBeforeCreate\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Filament/App/Resources/Documents/DocumentResource.php
+
+		-
+			message: '#^Parameter \#1 \$boolean of function abort_unless expects bool, App\\Models\\Tenant\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Filament/App/Resources/GdprDeleteRequests/Pages/ManageGdprDeleteRequests.php
+
+		-
+			message: '#^Call to an undefined method Filament\\Forms\\Components\\TextInput\:\:uppercase\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Filament/App/Resources/MultiCurrency/CurrencyResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\MarketPricePoint\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Resources/PriceIntelligence/MarketPriceResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseRequisition\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Resources/PurchaseRequisitions/Pages/EditPurchaseRequisition.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Resources/Quotes/Pages/EditQuote.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Resources/Quotes/QuoteResource.php
+
+		-
+			message: '#^Method App\\Filament\\App\\Resources\\ReverseAuctions\\Pages\\LiveReverseAuction\:\:getBidsProperty\(\) should return list\<App\\Models\\AuctionBid\> but returns Illuminate\\Database\\Eloquent\\Collection\<int, Illuminate\\Database\\Eloquent\\Model\>\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Filament/App/Resources/ReverseAuctions/Pages/LiveReverseAuction.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\ReverseAuction\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/App/Resources/ReverseAuctions/ReverseAuctionResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Rfq\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Filament/App/Resources/Rfqs/RfqResource.php
+
+		-
+			message: '#^Method App\\Filament\\App\\Resources\\SupportTickets\\SupportTicketResource\:\:mutateFormDataBeforeCreate\(\) has parameter \$data with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Filament/App/Resources/SupportTickets/SupportTicketResource.php
+
+		-
+			message: '#^Method App\\Filament\\App\\Resources\\SupportTickets\\SupportTicketResource\:\:mutateFormDataBeforeCreate\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Filament/App/Resources/SupportTickets/SupportTicketResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Filament\\Supplier\\Pages\\SubmitAuctionBid\:\:\$form\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Filament/Supplier/Pages/SubmitAuctionBid.php
+
+		-
+			message: '#^Method App\\Filament\\Supplier\\Pages\\SubmitAuctionBid\:\:recentBids\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Filament/Supplier/Pages/SubmitAuctionBid.php
+
+		-
+			message: '#^Parameter \#1 \$boolean of function abort_unless expects bool, int\<0, max\>\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Filament/Supplier/Pages/SubmitAuctionBid.php
+
+		-
+			message: '#^Property App\\Filament\\Supplier\\Pages\\SubmitAuctionBid\:\:\$data type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Filament/Supplier/Pages/SubmitAuctionBid.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/Supplier/Resources/PurchaseOrders/PurchaseOrderResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Rfq\|Illuminate\\Database\\Eloquent\\Collection\<int, App\\Models\\Rfq\>\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/Supplier/Resources/Quotes/Pages/CreateQuote.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Filament/Supplier/Resources/Quotes/Pages/EditQuote.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsCategory\:\:\$meta_description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/BlogController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsCategory\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/BlogController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPost\:\:\$meta_description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/BlogController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPost\:\:\$og_image\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/BlogController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPost\:\:\$title\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/BlogController.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Relations\\HasMany\:\:published\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Http/Controllers/Public/BlogController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPage\:\:\$meta_description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/ContactController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPage\:\:\$meta_description\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Http/Controllers/Public/FeatureController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPage\:\:\$meta_title\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/FeatureController.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>meta_description" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Http/Controllers/Public/FeatureController.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>meta_title" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Http/Controllers/Public/FeatureController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\knowledge_base\\Models\\KbArticle\:\:\$meta_description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/HelpCenterController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\knowledge_base\\Models\\KbArticle\:\:\$og_image\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/HelpCenterController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\knowledge_base\\Models\\KbArticle\:\:\$title\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/HelpCenterController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPage\:\:\$meta_description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/HomeController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPage\:\:\$meta_title\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/HomeController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPage\:\:\$og_image\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/HomeController.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>meta_description" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Http/Controllers/Public/HomeController.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>meta_title" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Http/Controllers/Public/HomeController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPage\:\:\$meta_description\.$#'
+			identifier: property.notFound
+			count: 6
+			path: app/Http/Controllers/Public/MarketingController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPage\:\:\$meta_title\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Http/Controllers/Public/MarketingController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPage\:\:\$og_image\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Http/Controllers/Public/MarketingController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPage\:\:\$title\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/MarketingController.php
+
+		-
+			message: '#^Parameter \#1 \$boolean of function abort_unless expects bool, App\\Modules\\cms\\Models\\CmsPage\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Http/Controllers/Public/MarketingController.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>meta_description" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 3
+			path: app/Http/Controllers/Public/MarketingController.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>meta_title" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 2
+			path: app/Http/Controllers/Public/MarketingController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPage\:\:\$meta_description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/PageController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPage\:\:\$og_image\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/PageController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPage\:\:\$title\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/PageController.php
+
+		-
+			message: '#^Parameter \#1 \$boolean of function abort_unless expects bool, App\\Modules\\cms\\Models\\CmsPage\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Http/Controllers/Public/PageController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPage\:\:\$meta_description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/PricingController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPost\:\:\$slug\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/SitemapController.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\knowledge_base\\Models\\KbArticle\:\:\$slug\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Public/SitemapController.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\RfqInvitation\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/RfqInvitationController.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>locale" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 2
+			path: app/Http/Middleware/SetLocale.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\AiJob\:\:\$feature\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Jobs/ProcessAiTask.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\NegotiationRound\:\:\$message_body\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Jobs/SendNegotiationRoundMail.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\NegotiationRound\:\:\$round_number\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Jobs/SendNegotiationRoundMail.php
+
+		-
+			message: '#^Method App\\Models\\AiJob\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/AiJob.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\AiPromptTemplate\:\:\$user_prompt_template\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/AiPromptTemplate.php
+
+		-
+			message: '#^Method App\\Models\\AiPromptTemplate\:\:interpolateUserPrompt\(\) has parameter \$vars with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Models/AiPromptTemplate.php
+
+		-
+			message: '#^Method App\\Models\\AiUsageLog\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/AiUsageLog.php
+
+		-
+			message: '#^Method App\\Models\\AiUsageLog\:\:user\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/AiUsageLog.php
+
+		-
+			message: '#^Method App\\Models\\ApprovalAction\:\:approver\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ApprovalAction.php
+
+		-
+			message: '#^Method App\\Models\\ApprovalAction\:\:request\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ApprovalAction.php
+
+		-
+			message: '#^Method App\\Models\\ApprovalDelegation\:\:fromUser\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ApprovalDelegation.php
+
+		-
+			message: '#^Method App\\Models\\ApprovalDelegation\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ApprovalDelegation.php
+
+		-
+			message: '#^Method App\\Models\\ApprovalDelegation\:\:toUser\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ApprovalDelegation.php
+
+		-
+			message: '#^Method App\\Models\\ApprovalRequest\:\:actions\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ApprovalRequest.php
+
+		-
+			message: '#^Method App\\Models\\ApprovalRequest\:\:approvable\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\MorphTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ApprovalRequest.php
+
+		-
+			message: '#^Method App\\Models\\ApprovalRequest\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ApprovalRequest.php
+
+		-
+			message: '#^Method App\\Models\\ApprovalRequest\:\:workflow\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ApprovalRequest.php
+
+		-
+			message: '#^Method App\\Models\\ApprovalWorkflow\:\:requests\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ApprovalWorkflow.php
+
+		-
+			message: '#^Method App\\Models\\ApprovalWorkflow\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ApprovalWorkflow.php
+
+		-
+			message: '#^Method App\\Models\\AuctionBid\:\:auction\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/AuctionBid.php
+
+		-
+			message: '#^Method App\\Models\\AuctionBid\:\:supplier\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/AuctionBid.php
+
+		-
+			message: '#^Class App\\Models\\Award uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Award.php
+
+		-
+			message: '#^Method App\\Models\\Award\:\:awardedBy\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Award.php
+
+		-
+			message: '#^Method App\\Models\\Award\:\:lines\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Award.php
+
+		-
+			message: '#^Method App\\Models\\Award\:\:purchaseOrders\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Award.php
+
+		-
+			message: '#^Method App\\Models\\Award\:\:rfq\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Award.php
+
+		-
+			message: '#^Method App\\Models\\Award\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Award.php
+
+		-
+			message: '#^Class App\\Models\\AwardLine uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/AwardLine.php
+
+		-
+			message: '#^Method App\\Models\\AwardLine\:\:award\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/AwardLine.php
+
+		-
+			message: '#^Method App\\Models\\AwardLine\:\:quote\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/AwardLine.php
+
+		-
+			message: '#^Method App\\Models\\AwardLine\:\:quoteLine\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/AwardLine.php
+
+		-
+			message: '#^Method App\\Models\\AwardLine\:\:rfqLine\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/AwardLine.php
+
+		-
+			message: '#^Method App\\Models\\AwardLine\:\:supplier\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/AwardLine.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Budget\:\:\$actual\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Models/Budget.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Budget\:\:\$amount\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Models/Budget.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Budget\:\:\$committed\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Models/Budget.php
+
+		-
+			message: '#^Class App\\Models\\Budget uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Budget.php
+
+		-
+			message: '#^Method App\\Models\\Budget\:\:costCenter\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Budget.php
+
+		-
+			message: '#^Method App\\Models\\Budget\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Budget.php
+
+		-
+			message: '#^Trait App\\Models\\Concerns\\BelongsToBranch is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: app/Models/Concerns/BelongsToBranch.php
+
+		-
+			message: '#^Class App\\Models\\Contract uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Contract.php
+
+		-
+			message: '#^Method App\\Models\\Contract\:\:purchaseOrder\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Contract.php
+
+		-
+			message: '#^Method App\\Models\\Contract\:\:supplier\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Contract.php
+
+		-
+			message: '#^Method App\\Models\\Contract\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Contract.php
+
+		-
+			message: '#^Method App\\Models\\Contract\:\:versions\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Contract.php
+
+		-
+			message: '#^Class App\\Models\\ContractClause uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ContractClause.php
+
+		-
+			message: '#^Method App\\Models\\ContractClause\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ContractClause.php
+
+		-
+			message: '#^Class App\\Models\\ContractVersion uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ContractVersion.php
+
+		-
+			message: '#^Method App\\Models\\ContractVersion\:\:contract\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ContractVersion.php
+
+		-
+			message: '#^Class App\\Models\\CostCenter uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/CostCenter.php
+
+		-
+			message: '#^Method App\\Models\\CostCenter\:\:budgets\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/CostCenter.php
+
+		-
+			message: '#^Method App\\Models\\CostCenter\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/CostCenter.php
+
+		-
+			message: '#^Class App\\Models\\GoodsReceipt uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/GoodsReceipt.php
+
+		-
+			message: '#^Method App\\Models\\GoodsReceipt\:\:lines\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/GoodsReceipt.php
+
+		-
+			message: '#^Method App\\Models\\GoodsReceipt\:\:purchaseOrder\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/GoodsReceipt.php
+
+		-
+			message: '#^Method App\\Models\\GoodsReceipt\:\:receivedBy\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/GoodsReceipt.php
+
+		-
+			message: '#^Method App\\Models\\GoodsReceipt\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/GoodsReceipt.php
+
+		-
+			message: '#^Class App\\Models\\GoodsReceiptLine uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/GoodsReceiptLine.php
+
+		-
+			message: '#^Method App\\Models\\GoodsReceiptLine\:\:goodsReceipt\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/GoodsReceiptLine.php
+
+		-
+			message: '#^Method App\\Models\\GoodsReceiptLine\:\:purchaseOrderLine\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/GoodsReceiptLine.php
+
+		-
+			message: '#^Method App\\Models\\MarketPricePoint\:\:catalogItem\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/MarketPricePoint.php
+
+		-
+			message: '#^Method App\\Models\\MarketPricePoint\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/MarketPricePoint.php
+
+		-
+			message: '#^Method App\\Models\\ModuleDefinition\:\:tenantModules\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ModuleDefinition.php
+
+		-
+			message: '#^Method App\\Models\\NegotiationRound\:\:thread\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/NegotiationRound.php
+
+		-
+			message: '#^Method App\\Models\\NegotiationStrategy\:\:thread\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/NegotiationStrategy.php
+
+		-
+			message: '#^Method App\\Models\\NegotiationThread\:\:rfq\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/NegotiationThread.php
+
+		-
+			message: '#^Method App\\Models\\NegotiationThread\:\:rounds\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/NegotiationThread.php
+
+		-
+			message: '#^Method App\\Models\\NegotiationThread\:\:strategy\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasOne does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/NegotiationThread.php
+
+		-
+			message: '#^Method App\\Models\\NegotiationThread\:\:supplier\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/NegotiationThread.php
+
+		-
+			message: '#^Method App\\Models\\NegotiationThread\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/NegotiationThread.php
+
+		-
+			message: '#^Class App\\Models\\Payment uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Payment.php
+
+		-
+			message: '#^Method App\\Models\\Payment\:\:supplierInvoice\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Payment.php
+
+		-
+			message: '#^Method App\\Models\\Payment\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Payment.php
+
+		-
+			message: '#^Method App\\Models\\Plan\:\:modules\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Plan.php
+
+		-
+			message: '#^Method App\\Models\\Plan\:\:subscriptions\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Plan.php
+
+		-
+			message: '#^Method App\\Models\\PlanModule\:\:plan\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PlanModule.php
+
+		-
+			message: '#^Method App\\Models\\PriceAlert\:\:catalogItem\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PriceAlert.php
+
+		-
+			message: '#^Method App\\Models\\PriceAlert\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PriceAlert.php
+
+		-
+			message: '#^Class App\\Models\\PurchaseOrder uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseOrder.php
+
+		-
+			message: '#^Method App\\Models\\PurchaseOrder\:\:award\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseOrder.php
+
+		-
+			message: '#^Method App\\Models\\PurchaseOrder\:\:costCenter\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseOrder.php
+
+		-
+			message: '#^Method App\\Models\\PurchaseOrder\:\:goodsReceipts\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseOrder.php
+
+		-
+			message: '#^Method App\\Models\\PurchaseOrder\:\:lines\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseOrder.php
+
+		-
+			message: '#^Method App\\Models\\PurchaseOrder\:\:supplier\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseOrder.php
+
+		-
+			message: '#^Method App\\Models\\PurchaseOrder\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseOrder.php
+
+		-
+			message: '#^Class App\\Models\\PurchaseOrderLine uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseOrderLine.php
+
+		-
+			message: '#^Method App\\Models\\PurchaseOrderLine\:\:awardLine\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseOrderLine.php
+
+		-
+			message: '#^Method App\\Models\\PurchaseOrderLine\:\:purchaseOrder\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseOrderLine.php
+
+		-
+			message: '#^Method App\\Models\\PurchaseOrderLine\:\:rfqLine\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseOrderLine.php
+
+		-
+			message: '#^Method App\\Models\\PurchaseRequisition\:\:approvalRequests\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\MorphMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseRequisition.php
+
+		-
+			message: '#^Method App\\Models\\PurchaseRequisition\:\:lines\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseRequisition.php
+
+		-
+			message: '#^Method App\\Models\\PurchaseRequisition\:\:requester\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseRequisition.php
+
+		-
+			message: '#^Method App\\Models\\PurchaseRequisition\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseRequisition.php
+
+		-
+			message: '#^Method App\\Models\\PurchaseRequisitionLine\:\:catalogItem\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseRequisitionLine.php
+
+		-
+			message: '#^Method App\\Models\\PurchaseRequisitionLine\:\:requisition\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseRequisitionLine.php
+
+		-
+			message: '#^Method App\\Models\\PurchaseRequisitionLine\:\:unit\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/PurchaseRequisitionLine.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$grand_total\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Quote.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$other_fees\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Quote.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$payment_terms\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Quote.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$shipping_total\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Quote.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$subtotal\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Quote.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$tax_total\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/Quote.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$warranty_terms\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Models/Quote.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$tier\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Models/Quote.php
+
+		-
+			message: '#^Class App\\Models\\Quote uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Quote.php
+
+		-
+			message: '#^Method App\\Models\\Quote\:\:comments\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\MorphMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Quote.php
+
+		-
+			message: '#^Method App\\Models\\Quote\:\:lines\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Quote.php
+
+		-
+			message: '#^Method App\\Models\\Quote\:\:rfq\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Quote.php
+
+		-
+			message: '#^Method App\\Models\\Quote\:\:supplier\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Quote.php
+
+		-
+			message: '#^Method App\\Models\\Quote\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Quote.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>tier" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Models/Quote.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>value" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Models/Quote.php
+
+		-
+			message: '#^Method App\\Models\\QuoteComparison\:\:author\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/QuoteComparison.php
+
+		-
+			message: '#^Method App\\Models\\QuoteComparison\:\:rfq\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/QuoteComparison.php
+
+		-
+			message: '#^Method App\\Models\\QuoteComparison\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/QuoteComparison.php
+
+		-
+			message: '#^Method App\\Models\\QuoteExtraction\:\:quote\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/QuoteExtraction.php
+
+		-
+			message: '#^Method App\\Models\\QuoteExtraction\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/QuoteExtraction.php
+
+		-
+			message: '#^Method App\\Models\\QuoteImport\:\:quote\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/QuoteImport.php
+
+		-
+			message: '#^Method App\\Models\\QuoteImport\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/QuoteImport.php
+
+		-
+			message: '#^Method App\\Models\\QuoteImport\:\:user\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/QuoteImport.php
+
+		-
+			message: '#^Class App\\Models\\QuoteLine uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/QuoteLine.php
+
+		-
+			message: '#^Method App\\Models\\QuoteLine\:\:quote\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/QuoteLine.php
+
+		-
+			message: '#^Method App\\Models\\QuoteLine\:\:rfqLine\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/QuoteLine.php
+
+		-
+			message: '#^Method App\\Models\\QuoteLine\:\:unit\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/QuoteLine.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\ReverseAuction\:\:\$ends_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/ReverseAuction.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\ReverseAuction\:\:\$starts_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/ReverseAuction.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\ReverseAuction\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Models/ReverseAuction.php
+
+		-
+			message: '#^Method App\\Models\\ReverseAuction\:\:bids\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ReverseAuction.php
+
+		-
+			message: '#^Method App\\Models\\ReverseAuction\:\:rfq\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ReverseAuction.php
+
+		-
+			message: '#^Method App\\Models\\ReverseAuction\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ReverseAuction.php
+
+		-
+			message: '#^Method App\\Models\\ReverseAuction\:\:winningBid\(\) should return App\\Models\\AuctionBid\|null but returns Illuminate\\Database\\Eloquent\\Model\|null\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Models/ReverseAuction.php
+
+		-
+			message: '#^Class App\\Models\\Rfq uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Rfq.php
+
+		-
+			message: '#^Method App\\Models\\Rfq\:\:awards\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Rfq.php
+
+		-
+			message: '#^Method App\\Models\\Rfq\:\:comments\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\MorphMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Rfq.php
+
+		-
+			message: '#^Method App\\Models\\Rfq\:\:invitations\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Rfq.php
+
+		-
+			message: '#^Method App\\Models\\Rfq\:\:lines\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Rfq.php
+
+		-
+			message: '#^Method App\\Models\\Rfq\:\:questions\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Rfq.php
+
+		-
+			message: '#^Method App\\Models\\Rfq\:\:quotes\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Rfq.php
+
+		-
+			message: '#^Method App\\Models\\Rfq\:\:requisition\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Rfq.php
+
+		-
+			message: '#^Method App\\Models\\Rfq\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Rfq.php
+
+		-
+			message: '#^Method App\\Models\\RfqInvitation\:\:rfq\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/RfqInvitation.php
+
+		-
+			message: '#^Method App\\Models\\RfqInvitation\:\:supplier\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/RfqInvitation.php
+
+		-
+			message: '#^Class App\\Models\\RfqLine uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/RfqLine.php
+
+		-
+			message: '#^Method App\\Models\\RfqLine\:\:catalogItem\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/RfqLine.php
+
+		-
+			message: '#^Method App\\Models\\RfqLine\:\:quoteLines\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/RfqLine.php
+
+		-
+			message: '#^Method App\\Models\\RfqLine\:\:rfq\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/RfqLine.php
+
+		-
+			message: '#^Method App\\Models\\RfqLine\:\:unit\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/RfqLine.php
+
+		-
+			message: '#^Method App\\Models\\RfqQuestion\:\:rfq\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/RfqQuestion.php
+
+		-
+			message: '#^Method App\\Models\\RfqQuestion\:\:supplier\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/RfqQuestion.php
+
+		-
+			message: '#^Method App\\Models\\SavingsRecord\:\:negotiationThread\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/SavingsRecord.php
+
+		-
+			message: '#^Method App\\Models\\SavingsRecord\:\:quote\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/SavingsRecord.php
+
+		-
+			message: '#^Method App\\Models\\SavingsRecord\:\:rfq\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/SavingsRecord.php
+
+		-
+			message: '#^Method App\\Models\\SavingsRecord\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/SavingsRecord.php
+
+		-
+			message: '#^Method App\\Models\\ScoringCriterion\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ScoringCriterion.php
+
+		-
+			message: '#^Method App\\Models\\Setting\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Setting.php
+
+		-
+			message: '#^Class App\\Models\\StockItem uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/StockItem.php
+
+		-
+			message: '#^Method App\\Models\\StockItem\:\:catalogItem\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/StockItem.php
+
+		-
+			message: '#^Method App\\Models\\StockItem\:\:movements\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/StockItem.php
+
+		-
+			message: '#^Method App\\Models\\StockItem\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/StockItem.php
+
+		-
+			message: '#^Method App\\Models\\StockItem\:\:warehouse\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/StockItem.php
+
+		-
+			message: '#^Class App\\Models\\StockMovement uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/StockMovement.php
+
+		-
+			message: '#^Method App\\Models\\StockMovement\:\:reference\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\MorphTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/StockMovement.php
+
+		-
+			message: '#^Method App\\Models\\StockMovement\:\:stockItem\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/StockMovement.php
+
+		-
+			message: '#^Method App\\Models\\StockMovement\:\:user\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/StockMovement.php
+
+		-
+			message: '#^Class App\\Models\\SupplierInvoice uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/SupplierInvoice.php
+
+		-
+			message: '#^Method App\\Models\\SupplierInvoice\:\:lines\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/SupplierInvoice.php
+
+		-
+			message: '#^Method App\\Models\\SupplierInvoice\:\:payments\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/SupplierInvoice.php
+
+		-
+			message: '#^Method App\\Models\\SupplierInvoice\:\:purchaseOrder\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/SupplierInvoice.php
+
+		-
+			message: '#^Method App\\Models\\SupplierInvoice\:\:supplier\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/SupplierInvoice.php
+
+		-
+			message: '#^Method App\\Models\\SupplierInvoice\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/SupplierInvoice.php
+
+		-
+			message: '#^Class App\\Models\\SupplierInvoiceLine uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/SupplierInvoiceLine.php
+
+		-
+			message: '#^Method App\\Models\\SupplierInvoiceLine\:\:purchaseOrderLine\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/SupplierInvoiceLine.php
+
+		-
+			message: '#^Method App\\Models\\SupplierInvoiceLine\:\:supplierInvoice\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/SupplierInvoiceLine.php
+
+		-
+			message: '#^Method App\\Models\\SupplierRiskAssessment\:\:supplier\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/SupplierRiskAssessment.php
+
+		-
+			message: '#^Method App\\Models\\SupplierRiskAssessment\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/SupplierRiskAssessment.php
+
+		-
+			message: '#^Method App\\Models\\SupplierScorecard\:\:supplier\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/SupplierScorecard.php
+
+		-
+			message: '#^Method App\\Models\\SupplierScorecard\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/SupplierScorecard.php
+
+		-
+			message: '#^Method App\\Models\\Tenant\:\:settings\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Tenant.php
+
+		-
+			message: '#^Method App\\Models\\Tenant\:\:tenantModules\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Tenant.php
+
+		-
+			message: '#^Method App\\Models\\Tenant\:\:users\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Tenant.php
+
+		-
+			message: '#^Method App\\Models\\TenantModule\:\:module\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/TenantModule.php
+
+		-
+			message: '#^Method App\\Models\\TenantModule\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/TenantModule.php
+
+		-
+			message: '#^Method App\\Models\\TenantSubscription\:\:plan\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/TenantSubscription.php
+
+		-
+			message: '#^Method App\\Models\\TenantSubscription\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/TenantSubscription.php
+
+		-
+			message: '#^Class App\\Models\\ThreeWayMatch uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ThreeWayMatch.php
+
+		-
+			message: '#^Method App\\Models\\ThreeWayMatch\:\:goodsReceipt\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ThreeWayMatch.php
+
+		-
+			message: '#^Method App\\Models\\ThreeWayMatch\:\:purchaseOrder\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ThreeWayMatch.php
+
+		-
+			message: '#^Method App\\Models\\ThreeWayMatch\:\:resolvedBy\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ThreeWayMatch.php
+
+		-
+			message: '#^Method App\\Models\\ThreeWayMatch\:\:supplierInvoice\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ThreeWayMatch.php
+
+		-
+			message: '#^Method App\\Models\\ThreeWayMatch\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/ThreeWayMatch.php
+
+		-
+			message: '#^Class App\\Models\\User uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Method App\\Models\\User\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^The @use tag of class App\\Models\\User describes Illuminate\\Database\\Eloquent\\Factories\\HasFactory but the class uses Laravel\\Sanctum\\HasApiTokens\.$#'
+			identifier: generics.wrongParent
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Class App\\Models\\Warehouse uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Warehouse.php
+
+		-
+			message: '#^Method App\\Models\\Warehouse\:\:stockItems\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Warehouse.php
+
+		-
+			message: '#^Method App\\Models\\Warehouse\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Warehouse.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\NegotiationRound\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/ai_negotiation/Services/CounterOfferGenerator.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\NegotiationThread\:\:\$rfq_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/ai_negotiation/Services/CounterOfferGenerator.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\NegotiationThread\:\:\$supplier_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/ai_negotiation/Services/CounterOfferGenerator.php
+
+		-
+			message: '#^Method App\\Modules\\ai_negotiation\\Services\\CounterOfferGenerator\:\:draft\(\) has parameter \$context with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Modules/ai_negotiation/Services/CounterOfferGenerator.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\AiJob\:\:\$input\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/ai_negotiation/Services/NegotiationStrategyService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\NegotiationThread\:\:\$rfq_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/ai_negotiation/Services/NegotiationStrategyService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\NegotiationThread\:\:\$supplier_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/ai_negotiation/Services/NegotiationStrategyService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/ai_negotiation/Services/QuoteAnalysisService.php
+
+		-
+			message: '#^Method App\\Modules\\ai_negotiation\\Services\\QuoteAnalysisService\:\:analyzeRfqQuotes\(\) has parameter \$weights with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Modules/ai_negotiation/Services/QuoteAnalysisService.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>currency_code" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Modules/ai_negotiation/Services/QuoteAnalysisService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseRequisition\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/approvals/Listeners/StartApprovalOnRequisitionSubmitted.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\ApprovalRequest\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/approvals/ModuleServiceProvider.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\ApprovalRequest\:\:\$current_level\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Modules/approvals/Services/ApprovalEngine.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\ApprovalRequest\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Modules/approvals/Services/ApprovalEngine.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$rules\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/approvals/Services/ApprovalEngine.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Award\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/awards/Services/AwardService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Rfq\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/awards/Services/AwardService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Rfq\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/awards/Services/AwardService.php
+
+		-
+			message: '#^Method App\\Modules\\backup_gdpr\\Models\\GdprDeleteRequest\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/backup_gdpr/Models/GdprDeleteRequest.php
+
+		-
+			message: '#^Method App\\Modules\\backup_gdpr\\Models\\GdprDeleteRequest\:\:user\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/backup_gdpr/Models/GdprDeleteRequest.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Payment\:\:\$amount\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/budgets/Services/BudgetService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Payment\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/budgets/Services/BudgetService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$cost_center_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/budgets/Services/BudgetService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/budgets/Services/BudgetService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$total\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/budgets/Services/BudgetService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$purchaseOrder\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/budgets/Services/BudgetService.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\catalog\\Models\\CatalogCategory\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/catalog/Database/Factories/CatalogItemFactory.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\catalog\\Models\\CatalogCategory\:\:\$parent_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/catalog/Models/CatalogCategory.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\catalog\\Models\\CatalogCategory\:\:\$path\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/catalog/Models/CatalogCategory.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\catalog\\Models\\CatalogCategory\:\:\$slug\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/catalog/Models/CatalogCategory.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\catalog\\Models\\CatalogCategory\|Illuminate\\Database\\Eloquent\\Collection\<int, App\\Modules\\catalog\\Models\\CatalogCategory\>\:\:\$path\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/catalog/Models/CatalogCategory.php
+
+		-
+			message: '#^Class App\\Modules\\catalog\\Models\\CatalogCategory uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/catalog/Models/CatalogCategory.php
+
+		-
+			message: '#^Method App\\Modules\\catalog\\Models\\CatalogCategory\:\:children\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/catalog/Models/CatalogCategory.php
+
+		-
+			message: '#^Method App\\Modules\\catalog\\Models\\CatalogCategory\:\:items\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/catalog/Models/CatalogCategory.php
+
+		-
+			message: '#^Method App\\Modules\\catalog\\Models\\CatalogCategory\:\:parent\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/catalog/Models/CatalogCategory.php
+
+		-
+			message: '#^Method App\\Modules\\catalog\\Models\\CatalogCategory\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/catalog/Models/CatalogCategory.php
+
+		-
+			message: '#^The @use tag of class App\\Modules\\catalog\\Models\\CatalogCategory describes Illuminate\\Database\\Eloquent\\Factories\\HasFactory but the class uses App\\Models\\Concerns\\BelongsToTenant\.$#'
+			identifier: generics.wrongParent
+			count: 1
+			path: app/Modules/catalog/Models/CatalogCategory.php
+
+		-
+			message: '#^Class App\\Modules\\catalog\\Models\\CatalogItem uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/catalog/Models/CatalogItem.php
+
+		-
+			message: '#^Method App\\Modules\\catalog\\Models\\CatalogItem\:\:category\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/catalog/Models/CatalogItem.php
+
+		-
+			message: '#^Method App\\Modules\\catalog\\Models\\CatalogItem\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/catalog/Models/CatalogItem.php
+
+		-
+			message: '#^Method App\\Modules\\catalog\\Models\\CatalogItem\:\:unit\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/catalog/Models/CatalogItem.php
+
+		-
+			message: '#^The @use tag of class App\\Modules\\catalog\\Models\\CatalogItem describes Illuminate\\Database\\Eloquent\\Factories\\HasFactory but the class uses App\\Models\\Concerns\\BelongsToTenant\.$#'
+			identifier: generics.wrongParent
+			count: 1
+			path: app/Modules/catalog/Models/CatalogItem.php
+
+		-
+			message: '#^Method App\\Modules\\catalog\\Models\\CatalogUnit\:\:items\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/catalog/Models/CatalogUnit.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsCategory\:\:posts\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsCategory.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsCategory\:\:scopeForLocale\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsCategory.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsCategory\:\:scopeForLocale\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsCategory.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsFaq\:\:scopeForLocale\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsFaq.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsFaq\:\:scopeForLocale\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsFaq.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsFaq\:\:scopePublished\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsFaq.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsFaq\:\:scopePublished\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsFaq.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsMenu\:\:children\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsMenu.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsMenu\:\:parent\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsMenu.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsMenu\:\:scopeForLocale\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsMenu.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsMenu\:\:scopeForLocale\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsMenu.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPage\:\:\$body\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/cms/Models/CmsPage.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPage\:\:\$body_format\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/cms/Models/CmsPage.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsPage\:\:scopeForLocale\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsPage.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsPage\:\:scopeForLocale\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsPage.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsPage\:\:scopePublished\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsPage.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsPage\:\:scopePublished\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsPage.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPost\:\:\$body\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/cms/Models/CmsPost.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\cms\\Models\\CmsPost\:\:\$body_format\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/cms/Models/CmsPost.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsPost\:\:category\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsPost.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsPost\:\:scopeForLocale\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsPost.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsPost\:\:scopeForLocale\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsPost.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsPost\:\:scopePublished\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsPost.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsPost\:\:scopePublished\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsPost.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsTestimonial\:\:scopeForLocale\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsTestimonial.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsTestimonial\:\:scopeForLocale\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsTestimonial.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsTestimonial\:\:scopePublished\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsTestimonial.php
+
+		-
+			message: '#^Method App\\Modules\\cms\\Models\\CmsTestimonial\:\:scopePublished\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/cms/Models/CmsTestimonial.php
+
+		-
+			message: '#^Method App\\Modules\\collaboration\\Models\\Comment\:\:commentable\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\MorphTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/collaboration/Models/Comment.php
+
+		-
+			message: '#^Method App\\Modules\\collaboration\\Models\\Comment\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/collaboration/Models/Comment.php
+
+		-
+			message: '#^Method App\\Modules\\collaboration\\Models\\Comment\:\:user\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/collaboration/Models/Comment.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\collaboration\\Models\\Comment\:\:\$body\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/collaboration/Notifications/UserMentionedInComment.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\collaboration\\Models\\Comment\:\:\$commentable_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/collaboration/Notifications/UserMentionedInComment.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\collaboration\\Models\\Comment\:\:\$commentable_type\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/collaboration/Notifications/UserMentionedInComment.php
+
+		-
+			message: '#^Method App\\Modules\\collaboration\\Notifications\\UserMentionedInComment\:\:via\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Modules/collaboration/Notifications/UserMentionedInComment.php
+
+		-
+			message: '#^Method App\\Modules\\collaboration\\Services\\CommentService\:\:add\(\) has parameter \$mentionUserIds with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Modules/collaboration/Services/CommentService.php
+
+		-
+			message: '#^Method App\\Modules\\collaboration\\Services\\CommentService\:\:resolveMentions\(\) has parameter \$mentionUserIds with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Modules/collaboration/Services/CommentService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Contract\:\:\$ends_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/contracts/Console/ContractRenewalAlertCommand.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\ContractClause\:\:\$body\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/contracts/Services/ContractService.php
+
+		-
+			message: '#^Call to an undefined method App\\Services\\Ai\\AiService\:\:reviewClauseRisk\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Modules/contracts/Services/ContractService.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\documents\\Models\\Document\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/documents/Models/Document.php
+
+		-
+			message: '#^Class App\\Modules\\documents\\Models\\Document uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/documents/Models/Document.php
+
+		-
+			message: '#^Method App\\Modules\\documents\\Models\\Document\:\:documentable\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\MorphTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/documents/Models/Document.php
+
+		-
+			message: '#^Method App\\Modules\\documents\\Models\\Document\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/documents/Models/Document.php
+
+		-
+			message: '#^Method App\\Modules\\documents\\Models\\Document\:\:uploader\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/documents/Models/Document.php
+
+		-
+			message: '#^The @use tag of class App\\Modules\\documents\\Models\\Document describes Illuminate\\Database\\Eloquent\\Factories\\HasFactory but the class uses App\\Models\\Concerns\\BelongsToTenant\.$#'
+			identifier: generics.wrongParent
+			count: 1
+			path: app/Modules/documents/Models/Document.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\documents\\Models\\Document\:\:\$version\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/documents/Services/DocumentVaultService.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:documents\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Modules/documents/Services/DocumentVaultService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/goods_receiving/Services/GoodsReceivingService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrderLine\:\:\$qty_received\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/goods_receiving/Services/GoodsReceivingService.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\PurchaseOrderApiResource\:\:\$acknowledged_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/PurchaseOrderApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\PurchaseOrderApiResource\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/PurchaseOrderApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\PurchaseOrderApiResource\:\:\$number\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/PurchaseOrderApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\PurchaseOrderApiResource\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/PurchaseOrderApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\PurchaseOrderApiResource\:\:\$supplier_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/PurchaseOrderApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\PurchaseOrderApiResource\:\:\$total\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/PurchaseOrderApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\PurchaseOrderApiResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/PurchaseOrderApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\QuoteApiResource\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/QuoteApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\QuoteApiResource\:\:\$grand_total\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/QuoteApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\QuoteApiResource\:\:\$number\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/QuoteApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\QuoteApiResource\:\:\$rfq_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/QuoteApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\QuoteApiResource\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/QuoteApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\QuoteApiResource\:\:\$submitted_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/QuoteApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\QuoteApiResource\:\:\$supplier_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/QuoteApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\QuoteApiResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/QuoteApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\RfqApiResource\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/RfqApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\RfqApiResource\:\:\$deadline_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/RfqApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\RfqApiResource\:\:\$number\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/RfqApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\RfqApiResource\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/RfqApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\RfqApiResource\:\:\$title\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/RfqApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\RfqApiResource\:\:\$type\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/RfqApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\RfqApiResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/RfqApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\SupplierApiResource\:\:\$code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/SupplierApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\SupplierApiResource\:\:\$country\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/SupplierApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\SupplierApiResource\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/SupplierApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\SupplierApiResource\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/SupplierApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\SupplierApiResource\:\:\$phone\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/SupplierApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\SupplierApiResource\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/SupplierApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\SupplierApiResource\:\:\$tier\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/SupplierApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Http\\Resources\\SupplierApiResource\:\:\$updated_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Http/Resources/SupplierApiResource.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>value" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 2
+			path: app/Modules/integrations/Http/Resources/SupplierApiResource.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Award\:\:\$rfq_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Listeners/DispatchIntegrationWebhooks.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Award\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Listeners/DispatchIntegrationWebhooks.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Award\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/integrations/Listeners/DispatchIntegrationWebhooks.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$grand_total\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Listeners/DispatchIntegrationWebhooks.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$rfq_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Listeners/DispatchIntegrationWebhooks.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Listeners/DispatchIntegrationWebhooks.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$supplier_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Listeners/DispatchIntegrationWebhooks.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/integrations/Listeners/DispatchIntegrationWebhooks.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Models\\Webhook\:\:\$secret\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Models/Webhook.php
+
+		-
+			message: '#^Method App\\Modules\\integrations\\Models\\Webhook\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/integrations/Models/Webhook.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Models\\Webhook\:\:\$secret\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Services/WebhookDispatcher.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\integrations\\Models\\Webhook\:\:\$url\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/integrations/Services/WebhookDispatcher.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\StockItem\:\:\$reorder_qty\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/inventory/Jobs/AutoRequisitionJob.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\GoodsReceiptLine\:\:\$qty_accepted\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/inventory/Services/InventoryService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/invoices/Services/InvoiceService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$subtotal\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/invoices/Services/InvoiceService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$supplier_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/invoices/Services/InvoiceService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$tax\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/invoices/Services/InvoiceService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/invoices/Services/InvoiceService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$total\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/invoices/Services/InvoiceService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/invoices/Services/InvoiceService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/invoices/Services/InvoiceService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$qty\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/invoices/Services/InvoiceService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$unit_price\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/invoices/Services/InvoiceService.php
+
+		-
+			message: '#^Call to an undefined method App\\Services\\Ai\\AiService\:\:extractInvoiceFields\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: app/Modules/invoices/Services/InvoiceService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/invoices/Services/ThreeWayMatchService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$total\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/invoices/Services/ThreeWayMatchService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\SupplierInvoice\:\:\$total\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/invoices/Services/ThreeWayMatchService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$qty\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/invoices/Services/ThreeWayMatchService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$qty_accepted\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/invoices/Services/ThreeWayMatchService.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\knowledge_base\\Models\\KbArticle\:\:\$body\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/knowledge_base/Models/KbArticle.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\knowledge_base\\Models\\KbArticle\:\:\$body_format\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/knowledge_base/Models/KbArticle.php
+
+		-
+			message: '#^Method App\\Modules\\knowledge_base\\Models\\KbArticle\:\:scopeForLocale\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/knowledge_base/Models/KbArticle.php
+
+		-
+			message: '#^Method App\\Modules\\knowledge_base\\Models\\KbArticle\:\:scopeForLocale\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/knowledge_base/Models/KbArticle.php
+
+		-
+			message: '#^Method App\\Modules\\knowledge_base\\Models\\KbArticle\:\:scopePublished\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/knowledge_base/Models/KbArticle.php
+
+		-
+			message: '#^Method App\\Modules\\knowledge_base\\Models\\KbArticle\:\:scopePublished\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/knowledge_base/Models/KbArticle.php
+
+		-
+			message: '#^Method App\\Modules\\multi_branch\\Models\\Entity\:\:budget\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/multi_branch/Models/Entity.php
+
+		-
+			message: '#^Method App\\Modules\\multi_branch\\Models\\Entity\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/multi_branch/Models/Entity.php
+
+		-
+			message: '#^Method App\\Modules\\multi_currency\\Models\\Currency\:\:baseRates\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/multi_currency/Models/Currency.php
+
+		-
+			message: '#^Method App\\Modules\\multi_currency\\Models\\ExchangeRate\:\:baseCurrency\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/multi_currency/Models/ExchangeRate.php
+
+		-
+			message: '#^Method App\\Modules\\multi_currency\\Models\\ExchangeRate\:\:quoteCurrency\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/multi_currency/Models/ExchangeRate.php
+
+		-
+			message: '#^Method App\\Modules\\multi_currency\\Models\\TaxRule\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/multi_currency/Models/TaxRule.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\multi_currency\\Models\\ExchangeRate\:\:\$rate\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Modules/multi_currency/Services/CurrencyService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Payment\:\:\$amount\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/payments/Services/PaymentService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Payment\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/payments/Services/PaymentService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Payment\:\:\$invoice_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/payments/Services/PaymentService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Payment\:\:\$reference\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/payments/Services/PaymentService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Payment\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/payments/Services/PaymentService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\SupplierInvoice\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/payments/Services/PaymentService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\SupplierInvoice\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/payments/Services/PaymentService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\SupplierInvoice\:\:\$total\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/payments/Services/PaymentService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\CatalogItem\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/price_intelligence/Services/PriceIntelligenceService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\CatalogItem\:\:\$sku\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/price_intelligence/Services/PriceIntelligenceService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\CatalogItem\|Illuminate\\Database\\Eloquent\\Collection\<int, App\\Models\\CatalogItem\>\:\:\$base_price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/price_intelligence/Services/PriceIntelligenceService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\MarketPricePoint\:\:\$catalog_item_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/price_intelligence/Services/PriceIntelligenceService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\MarketPricePoint\:\:\$price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/price_intelligence/Services/PriceIntelligenceService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PriceAlert\:\:\$direction\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/price_intelligence/Services/PriceIntelligenceService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PriceAlert\:\:\$threshold_percent\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/price_intelligence/Services/PriceIntelligenceService.php
+
+		-
+			message: '#^Method App\\Modules\\price_intelligence\\Services\\PriceIntelligenceService\:\:scrapeCatalogItems\(\) has parameter \$items with generic class Illuminate\\Support\\Collection but does not specify its types\: TKey, TValue$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/price_intelligence/Services/PriceIntelligenceService.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>currency_code" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Modules/price_intelligence/Services/PriceIntelligenceService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$number\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/purchase_orders/Mail/PurchaseOrderSentMail.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Award\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/purchase_orders/Services/POService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$revision\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/purchase_orders/Services/POService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$tax\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/purchase_orders/Services/POService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrderLine\:\:\$qty\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/purchase_orders/Services/POService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrderLine\:\:\$qty_received\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/purchase_orders/Services/POService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrderLine\:\:\$unit_price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/purchase_orders/Services/POService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/purchase_orders/Services/POService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/purchase_orders/Services/POService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/purchase_orders/Services/POService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$qty\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/purchase_orders/Services/POService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$rfq_line_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/purchase_orders/Services/POService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$unit_price\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/purchase_orders/Services/POService.php
+
+		-
+			message: '#^Method App\\Modules\\purchase_orders\\Services\\POService\:\:revise\(\) has parameter \$lineUpdates with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Modules/purchase_orders/Services/POService.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Support\\Collection\<int,Illuminate\\Database\\Eloquent\\Model\>\:\:sum\(\) expects \(callable\(Illuminate\\Database\\Eloquent\\Model\)\: float\)\|string\|null, Closure\(App\\Models\\PurchaseOrderLine\)\: float given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Modules/purchase_orders/Services/POService.php
+
+		-
+			message: '#^Parameter \#1 \$key of method Illuminate\\Database\\Eloquent\\Collection\<int,Illuminate\\Database\\Eloquent\\Model\>\:\:contains\(\) expects \(callable\(Illuminate\\Database\\Eloquent\\Model, int\)\: bool\)\|Illuminate\\Database\\Eloquent\\Model\|int\|string, Closure\(App\\Models\\PurchaseOrderLine\)\: bool given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Modules/purchase_orders/Services/POService.php
+
+		-
+			message: '#^Parameter \#1 \$key of method Illuminate\\Support\\Collection\<int,Illuminate\\Database\\Eloquent\\Model\>\:\:every\(\) expects \(callable\(Illuminate\\Database\\Eloquent\\Model, int\)\: bool\)\|Illuminate\\Database\\Eloquent\\Model\|string, Closure\(App\\Models\\PurchaseOrderLine\)\: bool given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Modules/purchase_orders/Services/POService.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>description" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Modules/purchase_orders/Services/POService.php
+
+		-
+			message: '#^Unable to resolve the template type TKey in call to function collect$#'
+			identifier: argument.templateType
+			count: 1
+			path: app/Modules/quote_comparison/Exports/QuoteComparisonExport.php
+
+		-
+			message: '#^Unable to resolve the template type TValue in call to function collect$#'
+			identifier: argument.templateType
+			count: 1
+			path: app/Modules/quote_comparison/Exports/QuoteComparisonExport.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/quote_comparison/Services/ComparisonEngine.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$exchange_rate_to_base\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/quote_comparison/Services/ComparisonEngine.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$lead_time_days\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/quote_comparison/Services/ComparisonEngine.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$supplier_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/quote_comparison/Services/ComparisonEngine.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/quote_comparison/Services/ComparisonEngine.php
+
+		-
+			message: '#^Method App\\Modules\\quote_comparison\\Services\\ComparisonEngine\:\:compare\(\) has parameter \$options with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Modules/quote_comparison/Services/ComparisonEngine.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Support\\Collection\<int,App\\Models\\Quote\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: argument.unresolvableType
+			count: 1
+			path: app/Modules/quote_comparison/Services/ComparisonEngine.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Support\\Collection\<int,array\<string, mixed\>\>\:\:reject\(\) contains unresolvable type\.$#'
+			identifier: argument.unresolvableType
+			count: 1
+			path: app/Modules/quote_comparison/Services/ComparisonEngine.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Support\\Collection\<int,array\<string, mixed\>\>\:\:sortByDesc\(\) contains unresolvable type\.$#'
+			identifier: argument.unresolvableType
+			count: 2
+			path: app/Modules/quote_comparison/Services/ComparisonEngine.php
+
+		-
+			message: '#^Parameter \#2 \$allValues of method App\\Modules\\quote_comparison\\Services\\ComparisonEngine\:\:criterionScore\(\) expects Illuminate\\Support\\Collection\<int, float\|int\>, Illuminate\\Support\\Collection\<\(int\|string\), float\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: app/Modules/quote_comparison/Services/ComparisonEngine.php
+
+		-
+			message: '#^Return type of call to method Illuminate\\Support\\Collection\<int,App\\Models\\Quote\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: method.unresolvableReturnType
+			count: 1
+			path: app/Modules/quote_comparison/Services/ComparisonEngine.php
+
+		-
+			message: '#^Return type of call to method Illuminate\\Support\\Collection\<int,array\<string, mixed\>\>\:\:all\(\) contains unresolvable type\.$#'
+			identifier: method.unresolvableReturnType
+			count: 1
+			path: app/Modules/quote_comparison/Services/ComparisonEngine.php
+
+		-
+			message: '#^Return type of call to method Illuminate\\Support\\Collection\<int,array\<string, mixed\>\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: method.unresolvableReturnType
+			count: 2
+			path: app/Modules/quote_comparison/Services/ComparisonEngine.php
+
+		-
+			message: '#^Return type of call to method Illuminate\\Support\\Collection\<int,array\<string, mixed\>\>\:\:values\(\) contains unresolvable type\.$#'
+			identifier: method.unresolvableReturnType
+			count: 1
+			path: app/Modules/quote_comparison/Services/ComparisonEngine.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$other_fees\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/quotes/Services/QuoteService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$shipping_total\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/quotes/Services/QuoteService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/quotes/Services/QuoteService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\QuoteLine\:\:\$line_total\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/quotes/Services/QuoteService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\QuoteLine\:\:\$qty\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/quotes/Services/QuoteService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\QuoteLine\:\:\$tax_rate\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/quotes/Services/QuoteService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\QuoteLine\:\:\$unit_price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/quotes/Services/QuoteService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$line_total\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/quotes/Services/QuoteService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$qty\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/quotes/Services/QuoteService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$tax_rate\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/quotes/Services/QuoteService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$unit_price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/quotes/Services/QuoteService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseRequisition\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/requisitions/Services/RequisitionService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseRequisition\:\:\$notes\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/requisitions/Services/RequisitionService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseRequisition\:\:\$number\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/requisitions/Services/RequisitionService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseRequisition\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Modules/requisitions/Services/RequisitionService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseRequisition\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 5
+			path: app/Modules/requisitions/Services/RequisitionService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$catalog_item_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/requisitions/Services/RequisitionService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$description\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/requisitions/Services/RequisitionService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$estimated_unit_price\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/requisitions/Services/RequisitionService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$qty\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/requisitions/Services/RequisitionService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$unit_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/requisitions/Services/RequisitionService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\AuctionBid\:\:\$amount\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/reverse_auctions/Services/AuctionService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\ReverseAuction\:\:\$auto_extend_minutes\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/reverse_auctions/Services/AuctionService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\ReverseAuction\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/reverse_auctions/Services/AuctionService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\ReverseAuction\:\:\$ends_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/reverse_auctions/Services/AuctionService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\ReverseAuction\:\:\$min_bid_decrement\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/reverse_auctions/Services/AuctionService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Rfq\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/rfq/Services/RfqService.php
+
+		-
+			message: '#^Method App\\Modules\\rfq\\Services\\RfqService\:\:generatePdf\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: app/Modules/rfq/Services/RfqService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Award\:\:\$rfq_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/savings/Services/SavingsTracker.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\NegotiationThread\:\:\$rfq_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/savings/Services/SavingsTracker.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$currency_code\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/savings/Services/SavingsTracker.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$supplier_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/spend_analytics/Services/SpendAnalyticsService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$total\.$#'
+			identifier: property.notFound
+			count: 5
+			path: app/Modules/spend_analytics/Services/SpendAnalyticsService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Modules/spend_analytics/Services/SpendAnalyticsService.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Database\\Eloquent\\Collection\<\(int\|string\),Illuminate\\Database\\Eloquent\\Collection\<int, App\\Models\\PurchaseOrder\>\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: argument.unresolvableType
+			count: 2
+			path: app/Modules/spend_analytics/Services/SpendAnalyticsService.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Support\\Collection\<\(int\|string\),array\<string, mixed\>\>\:\:sortByDesc\(\) contains unresolvable type\.$#'
+			identifier: argument.unresolvableType
+			count: 2
+			path: app/Modules/spend_analytics/Services/SpendAnalyticsService.php
+
+		-
+			message: '#^Return type of call to method Illuminate\\Database\\Eloquent\\Collection\<\(int\|string\),Illuminate\\Database\\Eloquent\\Collection\<int, App\\Models\\PurchaseOrder\>\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: method.unresolvableReturnType
+			count: 2
+			path: app/Modules/spend_analytics/Services/SpendAnalyticsService.php
+
+		-
+			message: '#^Return type of call to method Illuminate\\Support\\Collection\<\(int\|string\),array\<string, mixed\>\>\:\:values\(\) contains unresolvable type\.$#'
+			identifier: method.unresolvableReturnType
+			count: 2
+			path: app/Modules/spend_analytics/Services/SpendAnalyticsService.php
+
+		-
+			message: '#^Return type of call to method Illuminate\\Support\\Collection\<int,array\<string, mixed\>\>\:\:all\(\) contains unresolvable type\.$#'
+			identifier: method.unresolvableReturnType
+			count: 2
+			path: app/Modules/spend_analytics/Services/SpendAnalyticsService.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>name" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 2
+			path: app/Modules/spend_analytics/Services/SpendAnalyticsService.php
+
+		-
+			message: '#^Method App\\Modules\\subscription\\Models\\SubscriptionInvoice\:\:subscription\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/subscription/Models/SubscriptionInvoice.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$created_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/supplier_performance/Services/ScorecardService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseOrder\:\:\$total\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/supplier_performance/Services/ScorecardService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$submitted_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/supplier_performance/Services/ScorecardService.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\suppliers\\Models\\Supplier\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/supplier_performance/Services/ScorecardService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$published_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/supplier_performance/Services/ScorecardService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$received_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/supplier_performance/Services/ScorecardService.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\suppliers\\Models\\Supplier\:\:\$bank_iban\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/supplier_risk/Services/RiskService.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\suppliers\\Models\\Supplier\:\:\$country\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/supplier_risk/Services/RiskService.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\suppliers\\Models\\Supplier\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/supplier_risk/Services/RiskService.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\suppliers\\Models\\Supplier\:\:\$tax_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/supplier_risk/Services/RiskService.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\suppliers\\Models\\Supplier\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/supplier_risk/Services/RiskService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/supplier_risk/Services/RiskService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$type\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/supplier_risk/Services/RiskService.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\suppliers\\Models\\SupplierCategory\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/suppliers/Database/Factories/SupplierFactory.php
+
+		-
+			message: '#^Class App\\Modules\\suppliers\\Models\\Supplier uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/suppliers/Models/Supplier.php
+
+		-
+			message: '#^Method App\\Modules\\suppliers\\Models\\Supplier\:\:category\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/suppliers/Models/Supplier.php
+
+		-
+			message: '#^Method App\\Modules\\suppliers\\Models\\Supplier\:\:contacts\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/suppliers/Models/Supplier.php
+
+		-
+			message: '#^Method App\\Modules\\suppliers\\Models\\Supplier\:\:documents\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\MorphMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/suppliers/Models/Supplier.php
+
+		-
+			message: '#^Method App\\Modules\\suppliers\\Models\\Supplier\:\:portalUsers\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/suppliers/Models/Supplier.php
+
+		-
+			message: '#^Method App\\Modules\\suppliers\\Models\\Supplier\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/suppliers/Models/Supplier.php
+
+		-
+			message: '#^The @use tag of class App\\Modules\\suppliers\\Models\\Supplier describes Illuminate\\Database\\Eloquent\\Factories\\HasFactory but the class uses App\\Models\\Concerns\\BelongsToTenant\.$#'
+			identifier: generics.wrongParent
+			count: 1
+			path: app/Modules/suppliers/Models/Supplier.php
+
+		-
+			message: '#^Class App\\Modules\\suppliers\\Models\\SupplierCategory uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/suppliers/Models/SupplierCategory.php
+
+		-
+			message: '#^Method App\\Modules\\suppliers\\Models\\SupplierCategory\:\:suppliers\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/suppliers/Models/SupplierCategory.php
+
+		-
+			message: '#^Method App\\Modules\\suppliers\\Models\\SupplierCategory\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/suppliers/Models/SupplierCategory.php
+
+		-
+			message: '#^The @use tag of class App\\Modules\\suppliers\\Models\\SupplierCategory describes Illuminate\\Database\\Eloquent\\Factories\\HasFactory but the class uses App\\Models\\Concerns\\BelongsToTenant\.$#'
+			identifier: generics.wrongParent
+			count: 1
+			path: app/Modules/suppliers/Models/SupplierCategory.php
+
+		-
+			message: '#^Method App\\Modules\\suppliers\\Models\\SupplierContact\:\:supplier\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/suppliers/Models/SupplierContact.php
+
+		-
+			message: '#^Method App\\Modules\\suppliers\\Models\\SupplierUser\:\:supplier\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/suppliers/Models/SupplierUser.php
+
+		-
+			message: '#^Method App\\Modules\\suppliers\\Models\\SupplierUser\:\:user\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/suppliers/Models/SupplierUser.php
+
+		-
+			message: '#^Method App\\Modules\\support\\Models\\SupportTicket\:\:category\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/support/Models/SupportTicket.php
+
+		-
+			message: '#^Method App\\Modules\\support\\Models\\SupportTicket\:\:replies\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/support/Models/SupportTicket.php
+
+		-
+			message: '#^Method App\\Modules\\support\\Models\\SupportTicket\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/support/Models/SupportTicket.php
+
+		-
+			message: '#^Method App\\Modules\\support\\Models\\SupportTicket\:\:user\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/support/Models/SupportTicket.php
+
+		-
+			message: '#^Method App\\Modules\\support\\Models\\TicketCategory\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/support/Models/TicketCategory.php
+
+		-
+			message: '#^Method App\\Modules\\support\\Models\\TicketCategory\:\:tickets\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/support/Models/TicketCategory.php
+
+		-
+			message: '#^Method App\\Modules\\support\\Models\\TicketReply\:\:ticket\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/support/Models/TicketReply.php
+
+		-
+			message: '#^Method App\\Modules\\support\\Models\\TicketReply\:\:user\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/support/Models/TicketReply.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\tasks\\Models\\Task\:\:\$due_at\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/tasks/Console/SendTaskRemindersCommand.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\tasks\\Models\\Task\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/tasks/Console/SendTaskRemindersCommand.php
+
+		-
+			message: '#^Access to an undefined property App\\Modules\\tasks\\Models\\Task\:\:\$title\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Modules/tasks/Console/SendTaskRemindersCommand.php
+
+		-
+			message: '#^Method App\\Modules\\tasks\\Models\\Task\:\:assignable\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\MorphTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/tasks/Models/Task.php
+
+		-
+			message: '#^Method App\\Modules\\tasks\\Models\\Task\:\:related\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\MorphTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/tasks/Models/Task.php
+
+		-
+			message: '#^Method App\\Modules\\tasks\\Models\\Task\:\:tenant\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Modules/tasks/Models/Task.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseRequisition\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Policies/PurchaseRequisitionPolicy.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\PurchaseRequisition\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 4
+			path: app/Policies/PurchaseRequisitionPolicy.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Policies/QuotePolicy.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$supplier_id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Policies/QuotePolicy.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Quote\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Policies/QuotePolicy.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Rfq\:\:\$tenant_id\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Policies/RfqPolicy.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>name" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Providers/Filament/AppPanelProvider.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>primary_color" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Providers/Filament/AppPanelProvider.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\AiPromptTemplate\:\:\$output_schema\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Services/Ai/AiService.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\AiPromptTemplate\:\:\$system_prompt\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Services/Ai/AiService.php
+
+		-
+			message: '#^Method App\\Services\\Ai\\AiService\:\:logUsage\(\) has parameter \$config with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Services/Ai/AiService.php
+
+		-
+			message: '#^Property ImranDevBd\\AiHub\\Data\\AiResponse\:\:\$completionTokens \(int\) on left side of \?\? is not nullable\.$#'
+			identifier: nullCoalesce.property
+			count: 1
+			path: app/Services/Ai/AiService.php
+
+		-
+			message: '#^Property ImranDevBd\\AiHub\\Data\\AiResponse\:\:\$costUsd \(float\) on left side of \?\? is not nullable\.$#'
+			identifier: nullCoalesce.property
+			count: 1
+			path: app/Services/Ai/AiService.php
+
+		-
+			message: '#^Property ImranDevBd\\AiHub\\Data\\AiResponse\:\:\$model \(string\) on left side of \?\? is not nullable\.$#'
+			identifier: nullCoalesce.property
+			count: 1
+			path: app/Services/Ai/AiService.php
+
+		-
+			message: '#^Property ImranDevBd\\AiHub\\Data\\AiResponse\:\:\$promptTokens \(int\) on left side of \?\? is not nullable\.$#'
+			identifier: nullCoalesce.property
+			count: 1
+			path: app/Services/Ai/AiService.php
+
+		-
+			message: '#^Property ImranDevBd\\AiHub\\Data\\AiResponse\:\:\$provider \(string\) on left side of \?\? is not nullable\.$#'
+			identifier: nullCoalesce.property
+			count: 1
+			path: app/Services/Ai/AiService.php
+
+		-
+			message: '#^Method App\\Services\\Public\\ModuleManifestCatalog\:\:find\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Services/Public/ModuleManifestCatalog.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>value" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Services/Settings/SettingsService.php
+
+		-
+			message: '#^Property App\\Support\\Modules\\ModuleManager\:\:\$definitions with generic class Illuminate\\Support\\Collection does not specify its types\: TKey, TValue$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Support/Modules/ModuleManager.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>depends_on" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Support/Modules/ModuleManager.php

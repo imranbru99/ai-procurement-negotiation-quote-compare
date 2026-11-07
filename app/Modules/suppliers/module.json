@@ -1,0 +1,21 @@
+{
+    "key": "suppliers",
+    "name": "Suppliers",
+    "description": "ProcureAI module: Suppliers.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "tenants",
+        "users"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 100,
+    "permissions": [
+        "suppliers.view",
+        "suppliers.create",
+        "suppliers.update",
+        "suppliers.delete"
+    ],
+    "navigation": []
+}

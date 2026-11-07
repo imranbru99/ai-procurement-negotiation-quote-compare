@@ -1,0 +1,20 @@
+{
+    "key": "modules",
+    "name": "Modules",
+    "description": "ProcureAI module: Modules.",
+    "icon": "heroicon-o-cube",
+    "category": "core",
+    "depends_on": [
+        "tenants"
+    ],
+    "is_core": true,
+    "default_enabled": true,
+    "sort": 30,
+    "permissions": [
+        "modules.view",
+        "modules.create",
+        "modules.update",
+        "modules.delete"
+    ],
+    "navigation": []
+}

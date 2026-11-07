@@ -1,0 +1,20 @@
+{
+    "key": "knowledge_base",
+    "name": "Knowledge Base",
+    "description": "ProcureAI module: Knowledge Base.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "cms"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 410,
+    "permissions": [
+        "knowledge_base.view",
+        "knowledge_base.create",
+        "knowledge_base.update",
+        "knowledge_base.delete"
+    ],
+    "navigation": []
+}

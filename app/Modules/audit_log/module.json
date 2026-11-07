@@ -1,0 +1,20 @@
+{
+    "key": "audit_log",
+    "name": "Audit Log",
+    "description": "ProcureAI module: Audit Log.",
+    "icon": "heroicon-o-cube",
+    "category": "core",
+    "depends_on": [
+        "tenants"
+    ],
+    "is_core": true,
+    "default_enabled": true,
+    "sort": 50,
+    "permissions": [
+        "audit_log.view",
+        "audit_log.create",
+        "audit_log.update",
+        "audit_log.delete"
+    ],
+    "navigation": []
+}

@@ -1,0 +1,21 @@
+{
+    "key": "backup_gdpr",
+    "name": "Backup & GDPR",
+    "description": "ProcureAI module: Backup & GDPR.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "audit_log",
+        "settings"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 440,
+    "permissions": [
+        "backup_gdpr.view",
+        "backup_gdpr.create",
+        "backup_gdpr.update",
+        "backup_gdpr.delete"
+    ],
+    "navigation": []
+}

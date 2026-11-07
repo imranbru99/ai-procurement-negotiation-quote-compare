@@ -1,0 +1,21 @@
+{
+    "key": "collaboration",
+    "name": "Collaboration",
+    "description": "ProcureAI module: Collaboration.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "users",
+        "notifications"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 360,
+    "permissions": [
+        "collaboration.view",
+        "collaboration.create",
+        "collaboration.update",
+        "collaboration.delete"
+    ],
+    "navigation": []
+}

@@ -1,0 +1,20 @@
+{
+    "key": "subscription",
+    "name": "Subscription",
+    "description": "ProcureAI module: Subscription.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "tenants"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 380,
+    "permissions": [
+        "subscription.view",
+        "subscription.create",
+        "subscription.update",
+        "subscription.delete"
+    ],
+    "navigation": []
+}

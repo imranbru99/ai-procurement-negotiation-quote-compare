@@ -1,0 +1,53 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../views/**/*.blade.php';
+
+@theme {
+    --font-sans: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Fraunces', ui-serif, Georgia, serif;
+    --color-brand-50: #f0fdfa;
+    --color-brand-100: #ccfbf1;
+    --color-brand-200: #99f6e4;
+    --color-brand-300: #5eead4;
+    --color-brand-400: #2dd4bf;
+    --color-brand-500: #14b8a6;
+    --color-brand-600: #0d9488;
+    --color-brand-700: #0f766e;
+    --color-brand-800: #115e59;
+    --color-brand-900: #134e4a;
+    --color-slate-950: #0b1220;
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+.hero-grid {
+    background-image:
+        radial-gradient(circle at 20% 20%, color-mix(in oklab, var(--color-brand-500) 28%, transparent), transparent 42%),
+        radial-gradient(circle at 80% 0%, color-mix(in oklab, var(--color-brand-700) 22%, transparent), transparent 38%),
+        linear-gradient(165deg, var(--color-slate-950) 0%, #0f172a 45%, #0b3b37 100%);
+}
+
+@keyframes float-in {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-float-in {
+    animation: float-in 0.7s ease-out both;
+}
+
+.prose-public :where(a):not(:where([class~='not-prose'] *)) {
+    @apply text-brand-400 underline decoration-brand-600/40 underline-offset-2;
+}

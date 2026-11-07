@@ -1,0 +1,22 @@
+{
+    "key": "rfq",
+    "name": "RFQ",
+    "description": "ProcureAI module: RFQ.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "requisitions",
+        "suppliers",
+        "catalog"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 140,
+    "permissions": [
+        "rfq.view",
+        "rfq.create",
+        "rfq.update",
+        "rfq.delete"
+    ],
+    "navigation": []
+}

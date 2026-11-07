@@ -1,0 +1,21 @@
+{
+    "key": "price_intelligence",
+    "name": "Price Intelligence",
+    "description": "ProcureAI module: Price Intelligence.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "catalog",
+        "quotes"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 310,
+    "permissions": [
+        "price_intelligence.view",
+        "price_intelligence.create",
+        "price_intelligence.update",
+        "price_intelligence.delete"
+    ],
+    "navigation": []
+}

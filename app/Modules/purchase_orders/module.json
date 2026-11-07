@@ -1,0 +1,20 @@
+{
+    "key": "purchase_orders",
+    "name": "Purchase Orders",
+    "description": "ProcureAI module: Purchase Orders.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "awards"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 200,
+    "permissions": [
+        "purchase_orders.view",
+        "purchase_orders.create",
+        "purchase_orders.update",
+        "purchase_orders.delete"
+    ],
+    "navigation": []
+}

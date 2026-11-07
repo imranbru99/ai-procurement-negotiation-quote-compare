@@ -1,0 +1,21 @@
+{
+    "key": "tasks",
+    "name": "Tasks",
+    "description": "ProcureAI module: Tasks.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "users",
+        "collaboration"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 350,
+    "permissions": [
+        "tasks.view",
+        "tasks.create",
+        "tasks.update",
+        "tasks.delete"
+    ],
+    "navigation": []
+}

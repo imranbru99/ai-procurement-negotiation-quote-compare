@@ -1,0 +1,21 @@
+{
+    "key": "savings",
+    "name": "Savings",
+    "description": "ProcureAI module: Savings.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "spend_analytics",
+        "ai_negotiation"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 300,
+    "permissions": [
+        "savings.view",
+        "savings.create",
+        "savings.update",
+        "savings.delete"
+    ],
+    "navigation": []
+}

@@ -1,0 +1,20 @@
+{
+    "key": "quote_comparison",
+    "name": "Quote Comparison",
+    "description": "ProcureAI module: Quote Comparison.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "quotes"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 160,
+    "permissions": [
+        "quote_comparison.view",
+        "quote_comparison.create",
+        "quote_comparison.update",
+        "quote_comparison.delete"
+    ],
+    "navigation": []
+}

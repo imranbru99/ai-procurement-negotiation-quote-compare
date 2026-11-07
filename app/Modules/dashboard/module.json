@@ -1,0 +1,20 @@
+{
+    "key": "dashboard",
+    "name": "Dashboard",
+    "description": "ProcureAI module: Dashboard.",
+    "icon": "heroicon-o-cube",
+    "category": "core",
+    "depends_on": [
+        "users"
+    ],
+    "is_core": true,
+    "default_enabled": true,
+    "sort": 70,
+    "permissions": [
+        "dashboard.view",
+        "dashboard.create",
+        "dashboard.update",
+        "dashboard.delete"
+    ],
+    "navigation": []
+}

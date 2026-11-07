@@ -1,0 +1,21 @@
+{
+    "key": "contracts",
+    "name": "Contracts",
+    "description": "ProcureAI module: Contracts.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "suppliers",
+        "awards"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 210,
+    "permissions": [
+        "contracts.view",
+        "contracts.create",
+        "contracts.update",
+        "contracts.delete"
+    ],
+    "navigation": []
+}

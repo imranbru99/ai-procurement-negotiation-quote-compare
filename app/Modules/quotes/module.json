@@ -1,0 +1,22 @@
+{
+    "key": "quotes",
+    "name": "Quotes",
+    "description": "ProcureAI module: Quotes.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "rfq",
+        "suppliers",
+        "catalog"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 150,
+    "permissions": [
+        "quotes.view",
+        "quotes.create",
+        "quotes.update",
+        "quotes.delete"
+    ],
+    "navigation": []
+}

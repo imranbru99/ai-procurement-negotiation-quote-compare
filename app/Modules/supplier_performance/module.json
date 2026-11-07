@@ -1,0 +1,21 @@
+{
+    "key": "supplier_performance",
+    "name": "Supplier Performance",
+    "description": "ProcureAI module: Supplier Performance.",
+    "icon": "heroicon-o-cube",
+    "category": "procurement",
+    "depends_on": [
+        "suppliers",
+        "purchase_orders"
+    ],
+    "is_core": false,
+    "default_enabled": false,
+    "sort": 270,
+    "permissions": [
+        "supplier_performance.view",
+        "supplier_performance.create",
+        "supplier_performance.update",
+        "supplier_performance.delete"
+    ],
+    "navigation": []
+}
